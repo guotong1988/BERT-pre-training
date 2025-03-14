@@ -15,6 +15,8 @@ If the learning rate of one data is fixed, then the sum learning rate of one bat
 
 **Conclusion:** More gpu --> Larger sum learning rate of one batch --> Faster training.
 
+**More** But as the learning rate can only be in the range of 1e-4 to 3e-5, batch time becomes the key evaluation metric.
+
 # WHATS NEW
 
 Using 1-GPU (100 batch size) vs using 4-GPU (400 batch size) for the same learning rate (0.00001) and same pre-training steps (1,000,000) will be no difference of 0.1% in downstream task accuracy.
