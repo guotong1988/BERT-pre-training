@@ -15,7 +15,7 @@ If the learning rate of one data is fixed, then the sum learning rate of one bat
 
 **Conclusion:** More gpu --> Larger sum learning rate of one batch --> Faster training. 
 
-But as the learning rate can only be in the range of 1e-4 to 3e-5, batch time becomes the key evaluation metric.
+But as the learning rate can only be in the range of 1e-4 to 3e-5, **train_samples_per_second** becomes the key evaluation metric.
 
 # WHATS NEW
 
