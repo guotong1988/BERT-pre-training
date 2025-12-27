@@ -15,7 +15,7 @@ If the learning rate of one data is fixed, then the sum learning rate of one bat
 
 **It seems:** More gpu --> Larger sum learning rate of one batch --> Faster training. 
 
-But as the learning rate can only be in the range of 1e-4 to 1e-5, [**train_samples_per_second**](https://github.com/guotong1988/LLM-post-training/issues/1) becomes the evaluation metric for speed. The total batch size is the determining factor. Training will fail if the learning rate is set too high.
+But as the learning rate can only be in the range of 1e-4 to 1e-5, train_samples_per_second becomes the evaluation metric for speed. The total batch size is the determining factor. Training will fail if the learning rate is set too high.
 
 # WHATS NEW
 
